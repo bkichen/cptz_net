@@ -1,0 +1,87 @@
+a{color:inherit;}
+a:hover,a:focus{color:inherit;text-decoration:none;}
+.clear{clear:both}
+.container{max-width:1000px;padding-left:0;padding-right:0;}
+.nav-tabs{border:none;margin:0 0 10px 0;}
+.head_line,.head_line .ztbd_bg,.head_line .rdsp_bg{position:relative;}
+.head_line .title_text{font-size:20px;position:absolute;top:-0.4em;left:1.9em;color:#000000;}
+.head_line .title_more{font-size:15px;color:#666666;position:absolute;top:-0.7em;right:0;}
+.head_line img{width:100%;}
+.head_line>img{width:320px;height:150px;}
+.head_line .banner_sp{height: 180px}
+.list_content{padding:0 30px 0 0;width:650px;}
+.list_content .list-group{margin-bottom:0;}
+.list-group-item{border:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;-webkit-line-clamp:2;-webkit-box-orient:vertical;}
+.list-group-item .white_space{overflow:hidden;text-overflow:ellipsis;display:block;-webkit-line-clamp:2;-webkit-box-orient:vertical;}
+.list-group-item:hover{text-decoration:none;cursor:pointer;color:#E1081F!important;}
+.hover_box:hover{cursor:pointer;}
+.hover_box:hover h5{color:#E1081F;}
+.hover_box:hover p{text-decoration:underline;}
+.cutting_line:hover{text-decoration:none;cursor:default;}
+.list_content .list-group-item{font-size:15px;padding:5px 5px;color:#333;}
+.head_line .list-group-item{padding:5px 0px;}
+.special_news .banner{margin-bottom:30px;height: 150px;}
+.img_text{padding:0 0;max-width:320px;}
+.img_text .title{padding:0 0 15px 0;}
+.img_text .list-group-item{color:#333333;}
+.img_text_ztbd .list-group-item{color:#515151;font-size:15px;}
+.head_line .corner_icon{float:left;margin-top:4px;display:inline-block;padding-right:10px;font-size:12px;color:#fff;text-align:center;white-space:nowrap;vertical-align:middle;}
+.list_group_base{padding:0 0 0 5px;}
+.list_group_base .list-group-item{padding:5px 5px;}
+.list_group_base .corner_icon{font-weight: 600;float:left;display:inline-block;width:18px;height:18px;margin:0 5px 0 0;font-size:14px;color:#fff;text-align:center;white-space:nowrap;vertical-align:middle;background-color:#c6c7cc;}
+.list_group_base .top_three{background-color:#ed4c59;}
+.rdsp_bg,.ztbd_bg{max-width:230px;height:33px;background:url('../images/news/1.png') left center no-repeat;margin-bottom:17px;}
+.breadcrumb > li + li:before{content:"> ";padding:0 20px;color:#666666;}
+.breadcrumb li a{color:#666666;}
+.badge{background-color:#fff;color:#999999;font-weight:300;}
+.fc_ybs_title{font:16px bold;padding-top:17px;padding-bottom:10px;font-weight:600;}
+.fc_ybs_explain{font-size:14px;color:#888888;border-bottom:1px dotted #ccc;padding-bottom:10px;margin-bottom:10px;}
+.navbar-brand{padding:15px 15px;}
+.navbar-header{float:none;}
+.nev_top_line{border-top:2px solid #e70c1f;padding:12px 15px;margin-bottom:28px;list-style:none;background-color:#f5f5f5;}
+.nev_top_line .breadcrumb{padding:0px 0px;margin-bottom:0px;list-style:none;background-color:#f5f5f5;border-radius:0px;}
+.breadcrumb{font-size:16px;color:#666666;}
+.breadcrumb li >a,.breadcrumb > .active{font-size:16px;color:#666666;}
+hr{margin-top:5px;margin-bottom:5px;}
+.nav{padding:0;margin-bottom:20px;}
+.nav > li{padding: 0;background-color:#f2f2f2;border-left:1px solid #e3e4e9;border-bottom:1px solid #e3e4e9;max-width:160px;max-height:40px;border-left:none;}
+.nav > li:hover{cursor:pointer;}
+.nav > li > span{color:#333333;padding: 0px;height: 40px;line-height: 40px;display:block;font-weight: bold;}
+.nav .active{background-color:#ffffff;border-top:2px solid #e60013;border-bottom:none;font-size:18px;font-weight: bold;}
+.nav .active span{color:#e70c1f;height: 39px;border-left: 1px solid #ccc;border-right: 1px solid #ccc;}
+#pageToolbar{padding:0 0;margin-bottom:30px;}
+.ui-paging-container{color:#666;font-size:12px;position:relative;}
+.ui-paging-container ul{overflow:hidden;text-align:center}
+.ui-paging-container ul li{text-align:center;}
+.ui-paging-container ul,.ui-paging-container li{list-style:none;}
+.ui-paging-container li{display:inline-block;padding:3px 6px;margin-left:5px;color:#666;}
+.ui-paging-container li.ui-pager{cursor:pointer;border:1px solid #ddd;border-radius:2px;}
+.ui-paging-container li.ui-pager:hover,.ui-paging-container li.focus{color:#e60013;border:1px solid #e60013;}
+.ui-paging-container li.ui-paging-ellipse{border:none;}
+.ui-paging-container li.ui-paging-toolbar{padding:0;}
+.ui-paging-container li.ui-paging-toolbar select{height:22px;border:1px solid #ddd;color:#666;}
+.ui-paging-container li.ui-paging-toolbar input{height:28px;border:none;text-align:center;width:52px;vertical-align:middle;float:left;padding:0px 0 0 20px;}
+.ui-paging-container li.ui-paging-toolbar a{width:60px;vertical-align:middle;text-decoration:none;display:inline-block;height:30px;border:1px solid #ddd;vertical-align:top;border-radius:2px;line-height:30px;padding:0 3px;cursor:pointer;margin-left:5px;color:#666;}
+.ui-paging-container li.ui-pager-disabled,.ui-paging-container li.ui-pager-disabled:hover{background-color:#f6f6f6;cursor:default;border:none;color:#ddd;}
+.ui-paging-container li.ui-paging-toolbar div{display:inline-block;line-height:30px;height:30px;padding:0;border:1px solid #ddd;text-align:center;width:74px;margin-left:5px;}
+.ui-paging-container .js-page-action{width:72px;height:30px;line-height:30px;padding:0 0;}
+[data-page]{width:30px;height:30px;line-height:30px;padding:0 0!important;}
+.nav > li > a:hover,.nav > li > a:focus{background-color:transparent;color:inherit;}
+@media screen and (max-width:1000px){
+	.ui-paging-container .js-page-action{width:72px;height:30px;line-height:30px;margin-bottom:10px;}
+	.ui-paging-container li.ui-paging-ellipse{display:none;}
+	[data-page]{display:none!important;}
+}
+@media screen and (max-width:800px){
+	.nav > li{max-width:50%;}
+	.nev_top_line{display:none;}
+	.img_text{max-width:100%;}
+	.container{padding:0 15px 0 15px;}
+	#content{padding:20px 15px 0 15px;}
+	.list_content{width: 100%;min-height: auto;padding: 0;    padding-bottom: 30px;}
+	.head_line>img,.head_line .banner_sp{width:100%;height: auto;}
+}
+
+
+.list-group-item-viedo{ float: left; width: 20%;}
+.list-group-item-viedo img{ width:100%;}

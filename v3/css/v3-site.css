@@ -1,0 +1,17 @@
+
+
+html {
+ background: #fff;
+}
+
+.b-deepred {
+ border-top-color: #c01410;
+}
+
+.bg-deepRed {
+ background-color: #c01410;
+}
+
+.b-style-dotted {
+ border-bottom: 1px dotted #cfcfcf;
+}

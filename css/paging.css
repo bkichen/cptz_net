@@ -1,0 +1,30 @@
+.fenYe{ text-align: center; margin-top: 20px;}
+.fenYe li{ cursor: pointer; margin:0 3px;border: 1px solid #ddd;border-radius: 2px;line-height: 28px;padding: 0 0;display: inline-table;}
+.fenYe li.feP {    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    width: 30px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 0;
+    display: inline-table;}
+.fenYe li.dqP{    cursor: pointer;
+    color: #e60013;
+    border: 1px solid #e60013;
+    border-radius: 2px;
+    width: 30px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 0;
+    display: inline-table;}
+.fenYe .sye,.fenYe .xye{ width: 72px;}
+.fenYe li.bky{color: #aaa;cursor: auto;}
+
+
+
+
+
+
+
+
+

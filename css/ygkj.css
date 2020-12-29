@@ -1,0 +1,23 @@
+/* 首页 */
+.gongGao .kjGg .kjgg04{height: auto; padding-bottom: 7px;background: url(../images/logokl8.png) no-repeat 8px center;}
+@media screen and (max-width: 510px){
+  .gongGao .kjGg .kjgg04{background:none;}
+}
+.gongGao .kjGg .kjh li{ width:30px; height:30px; font: 20px/30px "Microsoft YaHei", "微软雅黑", Arial;background: url("../images/qiuH.jpg") no-repeat center;border-radius: 15px;}
+.gongGao .kjGg .kjgg04 li{margin-bottom: 8px;}
+/* 首页 end */
+
+/* 阳光开奖 */
+
+.kjGgAkjsp .kjGg .kjgg04{ height: auto; padding-bottom: 7px;background: url(../images/logokl8.png) no-repeat 8px center;}
+@media screen and (max-width: 510px){
+  .kjGgAkjsp .kjGg .kjgg04{background:none;}
+}
+.kjGgAkjsp .kjGg .kjh li{ width:30px; height:30px; font: 20px/30px "Microsoft YaHei", "微软雅黑", Arial;background: url("../images/qiuH.jpg") no-repeat center;border-radius: 15px;}
+.kjGgAkjsp .kjGg .kjh li.lQiu{    background: url(../images/qiuL.jpg) no-repeat center;}
+.kjGgAkjsp .kjGg .kjgg04 li{margin-bottom: 8px;}
+.kjGgAkjsp .kjsp h2{background: url(../images/sun/kjsp02.jpg) no-repeat;}
+.sqA .sqQYgkj li{ font-size:12px;}
+.sqA .sqQYgkj{ width: 192px;margin-top: -45px;}
+.kjGgAkjsp .kjsp h2 strong{width: 108px;}
+/* 阳光开奖 end */

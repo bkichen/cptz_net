@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Cache-Control" content="max-age=0">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="telephone=no" name="format-detection">
+    <title>壕7-试刮</title>
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../zfczxggl/css/nav.css" rel="stylesheet">
+    <link href="../../zfczxggl/css/basepc.css" rel="stylesheet">
+    <link href="../../zfczxggl/css/shigua-201809071011.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        /*
+         *初始基础参数--data1
+        */
+        .sgq {width: 100%;top: 27%;left: 0%;} 
+        .cpjf img {width: 100%;}
+        .cpjj img {margin: 0 auto;width: 100%;}
+        .w2 .cq {width: 8.5%;}
+        .cq01 {top: 85.5%;left: 6%;}
+        .cq02 {top: 85.5%;left: 15%;}
+        .cq03 {top: 85.5%;left: 24%;}
+
+        .w2jj {top: 87%;left: 32%;}
+        .w2jj .cpjj {width: 140%;} 
+
+        .cq1 {top: 6%;left: 11.2%;}
+        .cq2 {top: 18.2%;left: 11.2%;}
+        .cq3 {top: 30.5%;left: 11.2%;}
+        .cq4 {top: 42.8%;left: 11.2%;}
+        .cq5 {top: 55.2%;left: 11.2%;}
+
+        .cq6 {top: 3.5%;left: 24%;}
+        .cq7 {top: 3.5%;left: 38%;}
+        .cq8 {top: 3.5%;left: 52%;}
+        .cq9 {top: 3.5%;left: 66%;}
+        .cq10 {top: 3.5%;left: 80%;}
+        .cq11 {top: 16.4%;left: 24%;}
+        .cq12 {top: 16.4%;left: 38%;}
+        .cq13 {top: 16.4%;left: 52%;}
+        .cq14 {top: 16.4%;left: 66%;}
+        .cq15 {top: 16.4%;left: 80%;}
+        .cq16 {top: 28.8%;left: 24%;}
+        .cq17 {top: 28.8%;left: 38%;}
+        .cq18 {top: 28.8%;left: 52%;}
+        .cq19 {top: 28.8%;left: 66%;}
+        .cq20 {top: 28.8%;left: 80%;}
+        .cq21 {top: 41.1%;left: 24%;}
+        .cq22 {top: 41.1%;left: 38%;}
+        .cq23 {top: 41.1%;left: 52%;}
+        .cq24 {top: 41.1%;left: 66%;}
+        .cq25 {top: 41.1%;left: 80%;}
+        .cq26 {top: 53.3%;left: 24%;}
+        .cq27 {top: 53.3%;left: 38%;}
+        .cq28 {top: 53.3%;left: 52%;}
+        .cq29 {top: 53.3%;left: 66%;}
+        .cq30 {top: 53.3%;left: 80%;}
+
+        .w2 .cqjh{ top:54%;right:28%;width: 5%;}
+        .w2 .cqjh01{ top:65%;right:28%;width: 5%;}
+        .w1 .cq {width: 8.7%;}
+        .w1 .cpjj {width: 100%;}
+
+        .w1 .wdhm .cq {width: 15%;text-align: center;}
+        .w1 .wdhm .cq .cpjf {width: 38%;display: inline-block;}
+        .w1 .wdhm .cq .cpjj {width: 73%;display: inline-block;}
+
+        .fd{top: 27% !important;}
+        @media screen and (max-width:767px){
+            .fd{top: 15% !important;}
+        }
+        canvas{width:100%;position:absolute;left:0;top:0;}
+        canvas.hasmouse{cursor:url('../../zfczxggl/images/public/o_pointer3.jpg'),default;}
+    </style>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>频道头部</title>
+        <style>/* 头部 */ header{height: 40px;background: #fff; } .m_v_nav{width: 1000px; margin: 0 auto;} .m_n_1{ width: 1000px;margin: 0 auto;color: #333333;font:14px/40px "宋体";position: relative;} .m_n_1 img{float: left;padding:4px 38px;} .m_n_2{float: left;} .m_n_2 a{padding: 0 15px;} .m_n_3{float: right;cursor: pointer;} .m_n_3 li{float: left;padding:0 10px;} .m_n_3 li i{display: inline-block;width:16px;height:10px;background: url(../../images/n_down.png) no-repeat 100% 50%;margin-left: 5px;} .m_n_31,.m_n_32{font: 12px/40px "宋体";color: #333333;} .m_n_311{width: 320px;height: 120px;background: #3C3C3C;position: absolute;top: 40px;right: 0;line-height: 40px;z-index: 100;display: none;} .m_n_311 img{padding: 15px 0px 0 26px;} .m_n_311 span{display: inline-block;font: 14px/26px "宋体";color: #fff;width:85px;text-align: center;margin-left: 15px;} .m_n_321{width:290px;height:120px;background: #3d3d3d;position: absolute;top: 40px;right: 0;line-height: 40px;z-index: 100;display: none;} .m_n_321 img{padding: 15px 0px 0 50px;} .m_n_321 span{display: inline-block;font: 14px/30px "宋体";color:#fff;padding-left:27px;} .m_n_3 li:hover{background: #3C3C3C url(../../images/n_sanjiao.png) no-repeat 0 0;color:#fff;} .m_n_3 li:hover i{background: url(../../images/n_down_fff.png) no-repeat 100% 50%;} .m_n_3 .m_n_31:hover .m_n_311{display: block;} .m_n_3 .m_n_32:hover .m_n_321{display: block;}</style></head>
+    <body>
+        <header class="hidden-xs">
+            <div class="m_v_nav">
+                <div class="m_n_1">
+                    <a href="#">
+                        <img src="../../zfczxggl/images/public/rdsp_rh_logo.png" alt=""></a>
+                    <p class="m_n_2">
+                        <a href="../../index.html">首页</a>
+                        <i>/</i>
+                        <a href="../../xwzx/index.html">新闻</a>
+                        <i>/</i>
+                        <a href="../../ztbd/index.html">专题</a>
+                        <i>/</i>
+                        <a href="../../kjxx/index.html">阳光开奖</a>
+                        <i>/</i>
+                        <a href="../../ggl/index.html">刮刮乐</a>
+                        <i>/</i>
+                        <a href="../../kjxx/ssq/index.html">双色球</a>
+                        <i>/</i>
+                        <a href="../../kjxx/fc3d/index.html">3D</a>
+                        <i>/</i>
+                        <a href="../../kjxx/qlc/index.html">七乐彩</a></p>
+                    <ul class="m_n_3">
+                        <li class="m_n_31">微信
+                            <i></i>
+                            <div class="m_n_311">
+                                <img src="../../images/n_2wm_zgfc.png" alt="">
+                                <img src="../../images/n_2wm_ssq.png" alt="">
+                                <img src="../../images/n_2wm_ggl.png" alt="">
+                                <span>中国福彩官微</span>
+                                <span>双色球官微</span>
+                                <span>刮刮乐官微</span></div>
+                        </li>
+                        <li class="m_n_32">客户端下载
+                            <i></i>
+                            <div class="m_n_321">
+                                <img src="../../zfczxggl/images/public/n_2wm_zgfc_c.png" alt="">
+                                <img src="../../zfczxggl/images/public/n_2wm_ggl_c.png" alt="">
+                                <span>中国福彩网客户端</span>
+                                <span>刮刮乐客户端</span></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="cleardiv"></div>
+            </div>
+        </header>
+    </body>
+</html>    <div class="container g_content">
+        <div class="row">
+            <div class="col-xs-12 col-md-8 g_md_8">
+                <p class="g_1_p hidden-xs">声明：本游戏为在线模拟试刮，中奖概率与真实彩票不同，不提供真实奖金</p>
+                <div class="g_2 g_gglpm">
+                    <div class="g_1_mask hidden-xs">
+                        <div class="gm_box">
+                            <p class="gm_tips">很遗憾！您没有中奖！</p>
+                            <img src="../../zfczxggl/images/public/close.png" class="gm_close">
+                            <div class="gm_btn">
+                                <span class="gm_more">更多游戏</span>
+                                <span class="gm_again">再来一次</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="back"><img style="width: 100%;"></div>
+                    <div class="sgq" id="bb"> 
+                        <div class="gkq face" style="opacity:0;"><img src="" class="gk">
+                            <div class="w1"></div>
+                            <div class="w2"></div>
+                        </div>
+                        <div class="zgao face">
+                            <canvas id="canvas01" class="face"> 您使用的浏览器不支持canvas。 </canvas>
+                        </div>
+                        <div class="ydain" style="display: none"></div>
+                    </div>
+                    <div class="hzz hidden-lg hidden-md"></div>
+                    <div class="pyang" style="display: none">
+                        <div class="openBnt hidden-lg hidden-md" style="display:none;">开奖</div>
+                        <img src="" class="bg">
+                    </div>
+                    <div class="tsq hidden-lg hidden-md">声明：本游戏为在线模拟试刮，中奖概率与真实彩票不同，不提供真实奖金。</div>
+                </div>
+                <div class="g_4 hidden-xs">
+                    <span class="g_4_open">刮开</span>
+                    <span class="g_4_get g_4_dis">开奖</span>
+                    <span class="g_4_reset">再来一次</span>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4 g_md_4  hidden-xs">
+                <div class="g_3">
+                    <div class="g_3_tit"><span class="g_3_txt">游戏介绍</span></div>
+                    <div class="g_3_cet">“壕7”彩票以土豪金为底色，票面上再搭配闪耀夺目的钻石、皇冠等元素，让整张彩票显得雍容华丽，贵气十足！如果你是一个对颜值有要求，对品质有要求的人，千万不要错过“壕7”！</div>
+                </div>
+                <div class="g_3">
+                    <div class="g_3_tit"><span class="g_3_txt">游戏规则</span></div>
+                    <div class="g_3_cet">“壕7”共有两个玩法，都很简单好玩！玩法一是“数字比对”，跟中奖数字对上就中奖；玩法二是“三同图”玩法，三个图符相同就中奖。在此基础上，玩法一还附加了见“7”中奖，奖金翻7倍的玩法，大大地丰富了中奖的可能性和趣味性。</div>
+                </div>
+                <div class="g_3">
+                    <div class="g_3_tit"><span class="g_3_txt">奖励设置</span></div>
+                    <div class="g_3_cet">
+                        <table>
+                            <tr>
+                                <td width="30%">奖级</td>
+                                <td width="70%">中奖金额</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>400,000元</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>7,000元</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>1,000元</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>700元</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>100元</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>70元</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>50元</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>20元</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>10元</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>底部</title>
+    <style>/* 底部 */ .f_c_01 .container{width:1000px;} .f_c_02 .container{width:1000px;padding: 0;} .f_c_01{width:100%;background: #f5f5f5;border-bottom: 1px solid #ccc;margin-top: 50px;} .f_c_01 .footer_01{height:70px;margin:10px 0;background: #f5f5f5;} .f_c_01 .footer_01 img{margin:10px;float: left;} .f_c_01 .footer_01 p{font:12px/24px "宋体";color:#999;margin: 0;} .f_c_01 .footer_01 p a{color:#999;text-decoration: none;} .f_c_01 .footer_01 p a:active{color:#999;text-decoration: none;} .f_c_01 .footer_01 p a:link {color:#999;text-decoration: none;}.f_c_01 .footer_01 p a:visited {color:#999;text-decoration: none;} .f_c_01 .footer_01 p a:hover{color:#337ab7;} .f_c_02{width:100%;background: #fafafa;padding-top:30px;} .f_c_02 ul li{list-style-type: none;} .f_c_02 ul li{width:13.2%;border-right:1px dotted #ccc;height:150px;float: left;} .f_c_02 ul li:nth-child(5){width:16.5%;} .f_c_02 ul li:nth-child(6){width:14.7%;} .f_c_02 ul li:last-child{width:16%;border-right:none;} .f_c_02 ul li img{width:50px;height:50px;margin: 0 0 20px 10px;} .f_c_02 ul li span{font: bold 16px/50px "微软雅黑";color: #464646;padding-left:5px;display:inline-block;vertical-align: middle;margin-bottom:20px;} .f_c_02 ul li p{font: bold 14px/26px "微软雅黑";color: #888;margin: 0;margin-left:30px;} .f_c_03{background: #fafafa;padding: 40px 0 20px;} .f_c_03 .text-center{font: 14px/24px "微软雅黑";color: #666;} @media (min-width: 1000px){ .f_c_01 .container{width:1000px;} .f_c_02 .container{width:1000px;padding: 0;} } @media (max-width: 767px){ .f_c_01 .container{width:1000px;} .f_c_02 .container{width:1000px;padding: 0;} .f_c_03 .text-center{font: 12px/24px "微软雅黑";-webkit-transform: scale(0.8);-moz-transform: scale(0.8);-o-transform: scale(0.8);transform: scale(0.8);} .f_c_031{width: 120%;margin-left: -10%;} } @media (max-width: 320px){ .f_c_03 .text-center{font: 12px/24px "微软雅黑";-webkit-transform: scale(0.7);-moz-transform: scale(0.7);-o-transform: scale(0.7);transform: scale(0.7);} .f_c_031{width: 130%;margin-left: -15%;} }
+    </style>
+</head>
+<body>
+    <!-- 底部 -->
+    <div class="f_c_01 hidden-xs">
+        <div class="container">
+            <div class="footer_01">
+                <img src="../../images/footer_logo.png" alt="">
+                <p>各地福彩：<a href="javascript:;">中华人民共和国财政部</a>   |  <a href="javascript:;">中华人民共和国民政部</a></p>
+                <p>省市福彩：<a href="javascript:;">北京</a> |  <a href="javascript:;">天津</a> | <a href="javascript:;">河北</a> |  <a href="javascript:;">山西</a> | <a href="javascript:;">内蒙古</a> | <a href="javascript:;">辽宁</a> |  <a href="javascript:;">吉林</a> | <a href="javascript:;">黑龙江</a> |   <a href="javascript:;">上海</a> |  |  <a href="javascript:;">江苏</a> | <a href="javascript:;">浙江</a> | <a href="javascript:;">安徽</a> | <a href="javascript:;">福建</a> | <a href="javascript:;">江西</a> |<a href="javascript:;">山东</a></p>
+                <p><a href="javascript:;">河南</a> |  <a href="javascript:;">湖北</a> | <a href="javascript:;">湖南</a> | <a href="javascript:;">广东</a> | <a href="javascript:;">深圳</a> | <a href="javascript:;">广西</a> | <a href="javascript:;">海南</a> | <a href="javascript:;">重庆</a> | <a href="javascript:;">四川</a> |  <a href="javascript:;">贵州</a>  <a href="javascript:;">云南</a> |  <a href="javascript:;">陕西</a> | <a href="javascript:;">甘肃</a> | <a href="javascript:;">青海</a> | <a href="javascript:;">宁夏</a> | <a href="javascript:;">新疆</a> </p>
+            </div>
+        </div>
+    </div>
+    <div class="f_c_02 hidden-xs">
+        <div class="container">
+            <ul>
+                <li>
+                    <a href="../../ggl/index.html" target="_blank">
+                        <img src="../../images/footer_01.png" alt="01"><span>刮刮乐</span>
+                    </a>
+                    <a href="../../ggl/jqxp/index.html" target="_blank">
+                        <p>近期新票</p>
+                    </a>
+                    <a href="ggl_list_s_pcqq_aiomsg.html" target="_blank">
+                        <p>在线试刮</p>
+                    </a>
+                    <a href="../../ggl/fwsb/index.html" target="_blank">
+                        <p>防伪•识别</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="../../kjxx/ssq/index.html" target="_blank">
+                        <img src="../../images/footer_02.png" alt="02"><span>双色球</span>
+                    </a>
+                    <a href="../../kjxx/ssq/yxgz/index.html" target="_blank">
+                        <p>游戏规则</p>
+                    </a>
+                    <a href="../../kjxx/ssq/kjgg/list.html" target="_blank">
+                        <p>开奖公告</p>
+                    </a>
+                    <a href="../../kjxx/ssq/kjgg/index.html" target="_blank">
+                        <p>往期开奖</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="../../kjxx/fc3d/index.html" target="_blank">
+                        <img src="../../images/footer_03.png" alt="03"><span>福彩3D</span>
+                    </a>
+                    <a href="../../kjxx/fc3d/yxgz/index.html" target="_blank">
+                        <p>游戏规则</p>
+                    </a>
+                    <a href="../../kjxx/fc3d/kjgg/list.html" target="_blank">
+                        <p>开奖公告</p>
+                    </a>
+                    <a href="../../kjxx/fc3d/kjgg/index.html" target="_blank">
+                        <p>往期开奖</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="../../kjxx/qlc/index.html" target="_blank">
+                        <img src="../../images/footer_04.png" alt="04"><span>七乐彩</span>
+                    </a>
+                    <a href="../../kjxx/qlc/yxgz/index.html" target="_blank">
+                        <p>游戏规则</p>
+                    </a>
+                    <a href="../../kjxx/qlc/kjgg/list.html" target="_blank">
+                        <p>开奖公告</p>
+                    </a>
+                    <a href="../../kjxx/qlc/kjgg/index.html" target="_blank">
+                        <p>往期开奖</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="../../fcda/index.html" target="_blank">
+                        <img src="../../images/footer_05.png" alt="05"><span>福彩档案</span>
+                    </a>
+                    <a href="../../fcda/index.html" target="_blank">
+                        <p>发展历程</p>
+                    </a>
+                    <a href="../../fcda/index.html" target="_blank">
+                        <p>福彩“第一”</p>
+                    </a>
+                    <a href="../../c/2017-12-22/427856.html" target="_blank">
+                        <p>摇奖机·摇奖球</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="../../gzfw/index.html" target="_blank">
+                        <img src="../../images/footer_06.png" alt="06"><span>公众服务</span>
+                    </a>
+                    <a href="../../gzfw/znwd/index.html" target="_blank">
+                        <p>智能问答</p>
+                    </a>
+                    <a href="../../cwl_admin/message/list-28_21.html" target="_blank">
+                        <p>网上留言</p>
+                    </a>
+                    <a href="../../cwl_admin/message/list-27_21.html" target="_blank">
+                        <p>意见征集</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="../../xxgk/index.html" target="_blank">
+                        <img src="../../images/footer_07.png" alt="07"><span>信息公开</span>
+                    </a>
+                    <a href="../../xxgk/gzzd/index.html" target="_blank">
+                        <p>规章制度</p>
+                    </a>
+                    <a href="../../xxgk/ndfxxsqk/index.html" target="_blank">
+                        <p>年度发行销售情况</p>
+                    </a>
+                    <a href="../../xxgk/cwyjs/index.html" target="_blank">
+                        <p>财务预决算</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="f_c_03 hidden-xs">
+        <div class="text-center">              
+            <p class="f_c_031">版权所有：中国福利彩票发行管理中心  网站主办：中国福利彩票发行管理中心</p>
+            <p>地址：北京市朝阳区北四环东路73号  邮编：100101</p>
+            <p>ICP备案编号：京ICP备13026484</p>
+        </div>
+    </div>
+</body>
+</html>    <script src="../../zfczxggl/js/jq.mobi.min.js"></script>
+    <script src="../../zfczxggl/js/layer/layer.m.js"></script>
+    <script src="../../zfczxggl/js/public-201809071011.js"></script>
+    <script src="../../zfczxggl/js/shigua.canvas-201809071011.js"></script>
+    <script>
+        /*
+         *自定义区域--初始基础图片参数--data2
+        */
+        var imgUrl = "http://www.cwl.gov.cn/zfczxggl/images";
+        var imgw = 880;
+        var imgh = 962;
+        var img_gk = imgUrl+"/shigua/sg31/hq_01_gk.jpg";
+        var img_bg = imgUrl+"/shigua/sg31/hq_01.jpg";
+        var img__g = imgUrl+"/shigua/sg31/hq_01_g.jpg";
+        var gglName = "h7";
+
+        var ww = $(window).width()<=640?$(window).width():640;
+        var wh = $(window).height();
+        var startClip = false;
+        var numon = "";
+
+        /*
+         *随机函数
+        */
+        function getRandom(min, max){
+            var r = Math.random() * (max - min);
+            var re = Math.round(r + min);
+            re = Math.max(Math.min(re, max), min);
+            return re;
+        }
+        /*
+         *判断增加中奖效果
+        */
+        var num1,num2,kjNum;
+        function panduan(){
+            $("div[class*='_win']").addClass("winNum");
+            $(".w2 div[class*='_win']").removeClass('winNum').find('img').addClass("winNum");
+            $(".w3 div[class*='_win']").removeClass('winNum').find('img').addClass("winNum");
+            $("div[class*='_zjNum']").addClass("ZjNum");
+            if(num1==$.int(KjNum[0])){
+                $("div[class*='_kj0']").addClass("ZjNum");
+            }
+            if(num2==$.int(KjNum[1])){
+                $("div[class*='_kj1']").addClass("ZjNum");
+            }
+        }
+        /*
+         *试刮信息页面渲染
+        */
+        var wins;
+        function addHtml(dataObj){
+            var wayList2 = dataObj.Data.way2.options;
+            var wayList1 = dataObj.Data.way1.options;
+            var winFlag = false;
+            $.each(wayList2,function(i, v){
+                if (v == "sqsm") {
+                    winFlag = true;
+                }
+            })
+            for (k in wayList1) {
+                if (wayList1[k]["no."] == "sqsm") {
+                    winFlag = true;
+                }
+            }
+            wins = dataObj.Data.way2.wins;
+            var wayInfo1 = '';
+            if(wayList1.length){
+                KjNum = dataObj.Data.way1.wins1;
+                for(var i=0;i<KjNum.length;i++){
+                    winClass = " _kj"+i;
+                    wayInfo1 += '<div class="cq cq'+(1+i)+' '+winClass+'"><div class="cpjf"><img src="http://www.cwl.gov.cn/zfczxggl/images/shigua/sg31/w4jf/'+KjNum[i]+'.png"></div></div>';
+                }
+                KjNum.push("7")
+                wayInfo1 += '<div class="wdhm">';
+                for(var i=0;i<wayList1.length;i++){
+                    var winClass = "";
+                    var zjClass = "";
+                    if($.inArray(wayList1[i]["no"],KjNum)) {
+                        winClass = "_win";
+                        zjClass = "_zjNum";
+                        if($.int(wayList1[i]["no"])==$.int(KjNum[0])){
+                            num1=$.int(wayList1[i]["no."]);
+                        }
+                        if($.int(wayList1[i]["no"])==$.int(KjNum[1])){
+                            num2=$.int(wayList1[i]["no."]);
+                        }
+                    }
+                    if (winFlag == true) {
+                        winClass = " _win";
+                    }
+                    wayInfo1 += '<div class="cq cq'+(i+6)+'">'
+                    +'<div class="cpjf '+zjClass+'"><img src="http://www.cwl.gov.cn/zfczxggl/images/shigua/sg31/w4jf/'+wayList1[i]["no"]+'.png"></div>'
+                    +'<div class="cpjj '+winClass+'"><img src="http://www.cwl.gov.cn/zfczxggl/images/shigua/sg31/w4jj/'+wayList1[i]["value"]+'.png?123"></div>'
+                    +'</div>';
+                }
+                wayInfo1 += '</div>';
+                $(".w1").html(wayInfo1);
+                if(wins != undefined && wins != "") {         
+                    numon = (wins || 0).toString().replace(/(\d)(?=(?:\d{3})+$)/g, '$1,');
+                }
+            }
+            var wayInfo2 = "";
+            if(wayList2) {
+                var winClass1 = winClass11 = "";
+                if (wayList2.length == 4) {
+                    if(wayList2[0] == wayList2[1] && wayList2[1] == wayList2[2] ) {
+                        winClass1 = " _win";
+                        winClass11 = " _zjNum";
+                    }
+                    if (winFlag == true) {
+                        winClass1 = " _win";
+                        winClass11 = " _zjNum";
+                    }
+                    wayInfo2+= '<div class="cq cq01 '+winClass11+'">'
+                            +'<div class="cpjf"><img src="http://www.cwl.gov.cn/zfczxggl/images/shigua/sg31/w2jf/'+wayList2[0]+'.png"></div>'
+                            +'</div>'
+                            +'<div class="cq cq02">'
+                            +'<div class="cpjf"><img src="http://www.cwl.gov.cn/zfczxggl/images/shigua/sg31/w2jf/'+wayList2[1]+'.png"></div>'
+                            +'</div>'
+                            +'<div class="cq cq03 '+winClass11+'">'
+                            +'<div class="cpjf"><img src="http://www.cwl.gov.cn/zfczxggl/images/shigua/sg31/w2jf/'+wayList2[2]+'.png"></div>'
+                            +'</div>'
+                            +'<div class="cq w2jj '+winClass1+'">'
+                            +'<div class="cpjj"><img src="http://www.cwl.gov.cn/zfczxggl/images/shigua/sg31/w2jj/'+wayList2[3]+'.png"></div>'
+                            +'</div>';
+                }
+            }
+            $(".w2").html(wayInfo2);
+        }
+    </script>
+    <script src="../../zfczxggl/js/shigua.public-201809071011.js"></script>
+</body>
+</html>

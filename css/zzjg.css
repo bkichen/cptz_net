@@ -1,0 +1,28 @@
+a{color:inherit!important;}
+.nev_top_line{border-top:2px solid #e70c1f;min-height:50px;line-height:50px;margin-bottom:20px;list-style:none;background-color:#f5f5f5;}
+.nev_top_line .breadcrumb{padding:0px 0px;margin-bottom:0px;list-style:none;background-color:#f5f5f5;border-radius:0px;font-size:14px;color:#666666;padding-left:12px;}
+.container{padding:0 0;}
+.container .breadcrumb > li + li:before{content:"> ";font-size:14px;color:#666666;}
+.container .breadcrumb > li + li:before{padding:0 10px;}
+.container .breadcrumb li a{color:#666666;}
+#content .nev_left .nev_content{min-height:300px;border-right:1px solid #666666;}
+#content .nev_left .nev_content li{font-size:18px;height:60px;line-height:60px;border-bottom:1px solid #eeeeee;text-align:center;}
+#content .nev_left .nev_content li:hover{cursor:pointer;}
+#content .nev_left .nev_content .active{position:relative;font-weight:bold;border-bottom:1px solid #666666;}
+#content .nev_left .nev_content .active .square{position:absolute;width:11px;height:11px;background-color:#666666;right:-5px;bottom:-5px;}
+#content .nev_left .nev_content .active .line{position:absolute;width:44px;border-top:1px solid #666;right:-45px;bottom:-1px;}
+#content .content_right{padding:0;margin-left:40px;}
+#content .content_right div{display:none;}
+#content .content_right .active{display:block;}
+#content .content_right .jgsz h3,#content .content_right .jgzn h3,#content .content_right .ldjs h3{margin:48px 0 23px 0;font-weight:bold;font-size:18px;color:#333;}
+#content .content_right .jgsz p,#content .content_right .jgzn p,#content .content_right .ldjs p{line-height:45px;font-size:15px;color:#666;text-indent:2em;}
+#content .content_right .ldjs h3{margin-bottom:23px;}
+@media screen and (max-width:800px){
+	.line{display:none;}
+	.row{margin:0;}
+	#content .content_right{margin-left:0;padding-right:15px;}
+	#content .content_right .jgsz h3,#content .content_right .jgzn h3,#content .content_right .ldjs h3{font-size:14px;}
+	#content .content_right .jgsz p,#content .content_right .jgzn p,#content .content_right .ldjs p{font-size:13px;}
+}
+
+/*# sourceMappingURL=zzjg.css.map */

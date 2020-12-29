@@ -1,0 +1,100 @@
+body{background:#ffffff;}
+.rpt_middle{margin-right:-25px;margin-left:-25px;}
+
+.zc_zcjd_01{padding:0 10px;}
+.rpt_middle img{width:320px;height:240px;}
+.rpt_line{display:inline-block;width:89%;height:5px;background:url("../images/report/line_02.png") no-repeat left;background-size:100%;margin-bottom:3px;}
+.rpt_zcfg{font:bold 14px/20px "微软雅黑";margin-top:35px;color:#333;}
+.rpt_tit01{font:20px/24px "微软雅黑";color:#333;margin-left:25px;}
+.rpt_pd10{padding-bottom:10px;}
+.rpt_pd10 span{color:#888;}
+.rpt_tit02{margin:20px 0 10px;font:bold 15px/20px "微软雅黑";border-bottom:1px dotted #888;padding:0px 10px;}
+.rpt_tit02 p{font-size:16px;}
+.rpt_tit03{font:15px/26px "微软雅黑";color:#515151;padding:10px 0;}
+
+/* 轮播 */
+.carousel-indicators{position:absolute;bottom:10px!important;left:100%;z-index:15;width:20%;padding-left:0;margin-left:-20%;text-align:center;list-style:none;}
+.carousel-indicators li{display:inline-block;width:7px;height:7px;margin:0;cursor:pointer;border:none;background:url(../images/report/djgz_banner_02.png) no-repeat;}
+.carousel-indicators .active{width:30px;height:7px;margin:0;border:none;background:url(../images/report/djgz_banner_01.png) no-repeat;}
+.carousel-caption{position:absolute;right:0!important;bottom:0!important;left:0!important;z-index:10;padding-left:20px;padding-top:10px;padding-bottom:10px!important;color:#fff;font:20px/20px "微软雅黑";text-align:left;text-shadow:0 1px 2px rgba(0,0,0,.6);background:url(../images/report/djgz_banner_tit.png) no-repeat;}
+#myCarousel .item img{width:490px;height:300px;}
+.zcjd_right_01 img,.zcjd_right_02 img{width:160px;height: 100px;}
+.zcjd_right_01{width:490px!important;height:100px;padding:0;margin:20px 0 10px 10px;background:#f5f5f5;}
+.zcjd_right_02{width:490px!important;height:100px;padding:0;margin:0 0 20px 10px;background:#f5f5f5;}
+.zcjd_right_01 h5{padding:12px 0 8px 170px;font:16px/30px "微软雅黑";color:#333;}
+.zcjd_right_01 p{padding:0 5px 0 170px;text-indent:2rem;font:14px/18px "微软雅黑";color:#888;}
+.zcjd_right_02 h5{padding:12px 170px 8px 10px;font:16px/30px "微软雅黑";color:#333;}
+.zcjd_right_02 p{padding:0 170px 0 10px;text-indent:2rem;font:14px/18px "微软雅黑";color:#888;}
+.zcjd_right_01:hover h5,.zcjd_right_02:hover h5{color: #E1081F;}
+.zcjd_right_01:hover p,.zcjd_right_02:hover p{text-decoration: underline;}
+.zcjd_right_03{width:490px!important;height:70px;padding:0;margin-left:10px;}
+.zcjd_right_03 ul{padding-left:20px;}
+.zcjd_right_03 li{list-style-type:disc;white-space:nowrap;text-overflow:ellipsis;font:15px/23px "微软雅黑";color:#333;}
+.zcjd_right_03 li:hover{text-decoration: none;color: #E1081F;}
+.rpt_zcfg ul li{height:40px;color:#515151;font:15px/40px "微软雅黑";border-bottom:1px dotted #ccc;}
+.rpt_zcfg ul li .pull-right{font-size:12px;color:#999;}
+.rpt_zcfg ul li:hover,.rpt_tit03:hover{color: #E1081F;}
+.z_jd_011{width:230px;float:left;margin-bottom:8px;}
+.z_jd_012{width:230px;float:right;margin-bottom:8px;}
+.z_jd_011 img,.z_jd_012 img{width:230px;height:120px;}
+ul.z_jd_013{clear:both;border-top:1px dotted #ccc;padding-left:20px;}
+.rpt_zcfg .z_jd_013 li{border:none;list-style-type:disc;}
+.rpt_zcfg .z_jd_013 li:hover{color: #E1081F;}
+.rpt_tit04{position:absolute;right:0;bottom:0;left:0;z-index:10;color:#ccc;font:15px/20px "微软雅黑";text-align:left;text-shadow:0 1px 2px rgba(0,0,0,.6);background:rgba(0,0,0,0.7);padding:10px 0 10px 10px;margin:10px 10px 0 10px;}
+.zc_jptj_01{position:relative;padding: 0 10px;}
+.zc_jptj_01 img{width:235px;height:160px;margin-bottom:20px;}
+.zc_jptj_01 a{display:block;background:#e61003;padding:5px;position:absolute;right:10px;color:#fff;top:115px;}
+.zc_jptj_01 h5{font:16px/28px "微软雅黑";color:#333;cursor: pointer; -webkit-line-clamp: 2; 
+-ms-line-clamp: 2;     
+text-overflow: ellipsis; 
+overflow: hidden; 
+display: -webkit-box; 
+-webkit-box-orient: vertical;}
+.zc_jptj_01 p{font:15px/24px "微软雅黑";color:#888;cursor: pointer; padding-top: 8px; -webkit-line-clamp: 2; 
+-ms-line-clamp: 2;     
+text-overflow: ellipsis; 
+overflow: hidden; 
+display: -webkit-box; 
+-webkit-box-orient: vertical;}
+.zc_jptj_01 h5:hover{color: #E1081F;}
+.zc_jptj_01 p:hover{text-decoration: underline;}
+
+/* 图说切换 */
+.jctj_banner{width:100%;height:50px;background:url("../images/report/jctj_bar_01.png") no-repeat;background-size:94%;margin-top:50px;font:20px/14px "微软雅黑";padding-left:30px;padding-right:0;}
+.jctj_banner>div{float:right;line-height:22px;margin-top:10px;}
+.zcjd_s_01 span{display:inline-block;width:50px;height:26px;cursor:pointer;}
+.zcjd_s_011{background:url("../images/report/djgz_banner_03.png") 0 26px;}
+.zcjd_s_012{background:url("../images/report/djgz_banner_03.png") 50px 0;margin-left:-6px;}
+.zcjd_s_011.on{background-position:0 0;}
+.zcjd_s_012.on{background-position:50px 26px;}
+.jctj_banner .jctj_banner_more{margin-top:0;line-height:0px;font-size:15px;color:#666;cursor:pointer;}
+@media (min-width:1000px){
+
+    /* 轮播 */
+    .container{width:1000px;}
+    .row .rpt_banner{padding:20px 10px 0 0;}
+    .rpt_area{margin-left:-15px;margin-right:-15px;padding:0;}
+}
+@media (max-width:767px){
+    .row .rpt_banner,.rpt_area{padding:0;}
+    .jctj_banner{height:40px;background-size:260%;margin-top:20px;}
+    .jctj_margin{margin:0;}
+    .rpt_middle{margin-right:-5px;margin-left:-5px;margin-bottom:20px;}
+    .zc_zcjd_01,.zc_jptj_01{padding:5px;}
+    .rpt_tit01{text-indent:0;}
+    .rpt_line{width:80%;}
+    .zc_fg_01{margin-bottom:30px;}
+    .zc_fg_01 .pull-left{width:70%;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+    .z_jd_011,.z_jd_012{width:100%;}
+    .z_jd_011 img,.z_jd_012 img{width:100%;height:auto;}
+    ul.z_jd_013{padding-left:0;}
+    .rpt_zcfg .z_jd_013 li{overflow:hidden;list-style-position:inside;white-space:nowrap;text-overflow:ellipsis;}
+    .rpt_tit04{bottom:5px;margin:0 5px;}
+    .jctj_banner .jctj_banner_more{margin-top:20px;}
+    .zc_jptj_01 a{right:5px;top: 26%;}
+    #myCarousel .item img{width:100%;height:auto;}
+    .zcjd_right_01 img,.zcjd_right_02 img{width:100%;height:auto;}
+    .z_jd_011 img,.z_jd_012 img{width:100%;height:auto;}
+    .rpt_middle img{width:100%;height:auto;}
+    .zc_jptj_01 img{width:100%;height:auto;}
+}

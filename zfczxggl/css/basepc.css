@@ -1,0 +1,52 @@
+
+
+/* CSS Document 中福彩 2017 */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,figure,figure,legend,textarea,p,blockquote,th,td,input,label{margin:0;padding:0;font-family:"Microsoft YaHei";word-wrap:break-word;}
+html{-ms-touch-action:none;}
+li{list-style:none;}
+img{border:none;vertical-align:top;}
+a,a:link,a:active,a:visited,a:hover{text-decoration:none;color:inherit;}
+input{outline:medium;}
+input[type=button],input[type=submit],input[type=file],button{cursor:pointer;-webkit-appearance:none;outline:none;}
+article,aside,details,figcaption,figure,footer,header,menu,nav,section{display:block;}
+.cleardiv{clear:both;height:0;display:block;overflow:hidden;}
+.clearfix:after{clear:both;height:0;overflow:hidden;display:block;visibility:hidden;content:".";}
+.pa{position:absolute;}
+.pr{position:relative;}
+.pf{position:fixed;}
+.fl{float:left;_display:inline;}
+.fr{float:right;_display:inline;}
+.ovh{overflow:hidden;}
+.vh{visibility:hidden;}
+.container{padding:0;}
+.row{margin:0;}
+
+.g_1_p{text-align:center;font:15px/30px "微软雅黑";margin-bottom:20px;}
+.g_3{margin-bottom:45px;}
+.g_3_tit{width:100%;height:33px;background:url(../images/shigua/ggl/titbg.png) left center no-repeat;margin-bottom:10px;background-size:100% 100%;}
+.g_3_txt{color:#000000;font:20px/15px "微软雅黑";padding-left:25px;}
+.g_3_cet{font:15px/28px "微软雅黑";text-indent:30px;}
+.g_3_cet table{width:100%;text-align:center;text-indent:0;}
+.g_3_cet table td{border:1px solid #ccc;height:33px;}
+
+.g_gglpm{position:relative;}
+.g_4{text-align:center;}
+.g_4 span{color:#fff;font:bold 20px/40px "微软雅黑";border-radius:5px;background:#ff4046;width:120px;height:40px;display:inline-block;text-align:center;margin:30px 10px;cursor:pointer;}
+.g_4_get.g_4_dis{background:#ccc;cursor:not-allowed;}
+.g_1_mask{position:absolute;top:0;left:0;background:rgba(0,0,0,.75);width:100%;height:100%;z-index:1000;display:none;}
+.gm_box{width:360px;height:160px;background:#fff;margin: 0 auto;border-radius:5px;position:relative;top: 50%;transform: translateY(-50%);-webkit-transform: translateY(-50%);-moz-transform: translateY(-50%);-o-transform: translateY(-50%);-ms-transform: translateY(-50%);}
+.gm_tips{text-align:left;font:20px/30px "微软雅黑";padding-left:50px;padding-top:40px;}
+.gm_close{position:absolute;right:0;top:0;padding:10px;cursor:pointer;}
+.gm_btn{position:absolute;bottom:20px;right:15px;color:#fff;font:20px/35px "微软雅黑";}
+.gm_more{float: right;border-radius:5px;background: #b2b2b2;padding: 0 10px;cursor:pointer;}
+.gm_again{float: right;background: #ff4046;border-radius:5px;padding: 0 10px;margin-right: 14px;cursor:pointer;}
+@media screen and (min-width:992px){
+	.container{width:1000px!important;padding:0;}
+	.g_content{margin-top:20px;}
+	.g_md_8{width:665px;padding-left:10px;}
+	.g_md_4{width:335px;padding-right:0;}
+}
+@media screen and (max-width:767px){
+	.g_md_8{padding:0;}
+	.g_1_mask{display:none;}
+}

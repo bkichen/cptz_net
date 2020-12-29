@@ -1,0 +1,80 @@
+
+/* CSS Document */
+body { margin:0; padding:0; font-family:"微软雅黑","宋体","Arial Narrow";  font-family:"Microsoft YaHei";}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,select,button,textarea,p,table,tr,th,td{ margin:0; padding:0; font-weight:normal;}
+img{ border:0; vertical-align:top;}
+li{ list-style:none;}
+a{  cursor:pointer; text-decoration:none;}
+a:hover{ text-decoration:underline;}
+table{ border-collapse:collapse;border-spacing:0;}
+/*float*/
+.fl{ float:left;}
+.fr{ float:right;}
+.clear{ clear:both; height:0px; line-height:0;}
+/*overflow*/
+.ov_h{ overflow:hidden; zoom:1;}
+
+.wrap{ position: relative;  width:1000px; margin:0 auto;  -webkit-box-sizing: content-box;  -moz-box-sizing: content-box; box-sizing: content-box;}
+
+.bg01{width:100%; background:#ec1a23; margin-bottom:30px;overflow: hidden;}
+.bg02{background: url("bg_xsj.png")bottom center no-repeat;width: 100%;overflow: hidden;}
+.bg03{background: #f2f5f9;height: 320px;margin-bottom: 30px;}
+.pos_r{ position:relative;}
+
+.bt_01{background: url("bt_bg.png") top center no-repeat;height: 102px;width: 1000px;text-align: center;margin-bottom: 80px;}
+.gd-01{position: relative;  background: url("ld.png") top center no-repeat;height: 673px;width: 808px;margin: 0 0 0 50px;}
+.gd-02{opacity: 0;filter:Alpha(opacity=0);}
+.gd-03{opacity: 0;filter:Alpha(opacity=0);}
+
+.ssq_00{position: absolute;right:-740px;top: 375px; z-index: 1;  background: #f2f5f9;width: 740px;height: 200px;border-radius: 8px;padding:25px  15px 0 25px;opacity: 0;filter:Alpha(opacity=0);}
+.ssq_00 p{text-indent: 2em;font: 15px/24px '微软雅黑';color:#333;}
+.ssq-1{position: absolute;top:58px;right: -115px;z-index: 2;opacity: 0;filter:Alpha(opacity=0);}
+.ssq-2{position: absolute;top:8px;right: 29px;opacity: 0;filter:Alpha(opacity=0)}
+.ssq-3{position: absolute;top:-34px;right: 165px;opacity: 0;filter:Alpha(opacity=0)}
+.ssq-4{position: absolute;top:34px;right: 380px;opacity: 0;filter:Alpha(opacity=0)}
+.ssq-5{position: absolute;top:-54px;right: 480px;opacity: 0;filter:Alpha(opacity=0)}
+.ssq-6{position: absolute;top:54px;right: 710px;opacity: 0;filter:Alpha(opacity=0)}
+.ssq-7{position: absolute;top:154px;right: 675px;opacity: 0;filter:Alpha(opacity=0)}
+.ssq-8{position: absolute;top:314px;right: 718px;opacity: 0;filter:Alpha(opacity=0)}
+.ssq-9{position: absolute;top:384px;right: 658px;opacity: 0;filter:Alpha(opacity=0)}
+.ssq-10{position: absolute;top:498px;right: 710px;opacity: 0;filter:Alpha(opacity=0)}
+.ssq-11{position: absolute;top:448px;right: 497px;opacity: 0;filter:Alpha(opacity=0)}
+.ssq-12{position: absolute;top:528px;right: 397px;opacity: 0;filter:Alpha(opacity=0)}
+.ssq-13{position: absolute;top:410px;right: 210px;opacity: 0;filter:Alpha(opacity=0)}
+.ssq-14{position: absolute;top:528px;right: 110px;opacity: 0;filter:Alpha(opacity=0)}
+.ssq-15{position: absolute;top:414px;right: -137px;opacity: 0;filter:Alpha(opacity=0)}
+
+
+.ggl_00{position: absolute;right:-1040px;top: 365px; z-index: 1;  background: #f2f5f9;width: 740px;height: 250px;border-radius: 8px;padding:25px  15px 0 25px;opacity: 0;}
+.ggl_00 p{text-indent: 2em;font: 15px/24px '微软雅黑';color:#333;}
+.ggl-1{position: absolute;top:58px;right: -115px;z-index: 2;opacity: 0;filter:Alpha(opacity=0);}
+.ggl-2{position: absolute;top:-15px;right: 105px;opacity: 0;filter:Alpha(opacity=0);}
+.ggl-3{position: absolute;top:-34px;right: 165px;opacity: 0;filter:Alpha(opacity=0);}
+.ggl-4{position: absolute;top:34px;right: 380px;opacity: 0;filter:Alpha(opacity=0);}
+.ggl-5{position: absolute;top:-68px;right: 490px;opacity: 0;filter:Alpha(opacity=0);}
+.ggl-6{position: absolute;top:54px;right: 720px;opacity: 0;filter:Alpha(opacity=0);}
+.ggl-7{position: absolute;top:154px;right: 606px;opacity: 0;filter:Alpha(opacity=0);}
+.ggl-8{position: absolute;top: 369px; right: 797px;opacity: 0;filter:Alpha(opacity=0);}
+.ggl-9{position: absolute;top: 415px;right: 609px;opacity: 0;filter:Alpha(opacity=0);}
+.ggl-10{position: absolute;top: 503px;right: 500px;opacity: 0;filter:Alpha(opacity=0);}
+.ggl-11{position: absolute;top:486px;right: 233px;opacity: 0;filter:Alpha(opacity=0);}
+.ggl-12{position: absolute;top:540px;right: 170px;opacity: 0;filter:Alpha(opacity=0);}
+.ggl-13{position: absolute;top:450px;right: -45px;opacity: 0;filter:Alpha(opacity=0);}
+/*.ssq_sk{opacity: 0;}*/
+
+/*.hd01{*/
+    /*-webkit-transition: all 1s ease 1s;*/
+    /*-moz-transition: all 1s ease 1s;*/
+    /*-ms-transition: all 1s ease 1s;*/
+    /*-o-transition: all 1s ease 1s;*/
+    /*transition: all 1s ease 1s;*/
+/*}*/
+/*.dh .hd01 {*/
+    /*-webkit-transform: translateX(80px);*/
+    /*-moz-transform: translateX(80px);*/
+    /*-ms-transform: translateX(80px);*/
+    /*-o-transform: translateX(80px);*/
+    /*transform: translateX(80px);*/
+    /*opacity: 0.001;*/
+/*}*/
+

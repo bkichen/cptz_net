@@ -1,0 +1,880 @@
+
+/* CSS Document */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+figure,
+figure,
+legend,
+textarea,
+p,
+blockquote,
+th,
+td,
+input,
+label {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei";
+  word-wrap: break-word;
+}
+html {
+  /*font-size: 6.25%;*/
+  /*100 �� 16 �� 100% = 6.25%*/
+  -ms-touch-action: none;
+  /* ��ֹwinphoneĬ�ϴ����¼� */
+}
+li {
+  list-style: none;
+}
+img {
+  border: none;
+  vertical-align: top;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: underline;
+  color: inherit;
+}
+input {
+  outline: medium;
+}
+input[type=button],
+input[type=submit],
+input[type=file],
+button {
+  cursor: pointer;
+  -webkit-appearance: none;
+  outline: none;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+  display: block;
+}
+em,
+strong {
+  font-weight: normal;
+  font-style: normal;
+}
+.cleardiv {
+  clear: both;
+  height: 0;
+  display: block;
+  overflow: hidden;
+}
+.clearfix:after {
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  display: block;
+  visibility: hidden;
+  content: ".";
+}
+.pa {
+  position: absolute;
+}
+.pr {
+  position: relative;
+}
+.pf {
+  position: fixed;
+}
+.fl {
+  float: left;
+  _display: inline;
+}
+.fr {
+  float: right;
+  _display: inline;
+}
+.fn {
+  float: none;
+}
+.ovh {
+  overflow: hidden;
+}
+.vh {
+  visibility: hidden;
+}
+.vv {
+  visibility: visible;
+}
+.ml0 {
+  margin-left: 0 !important;
+}
+.ml10 {
+  margin-left: 10px !important;
+}
+.mr0 {
+  margin-right: 0 !important;
+}
+body {
+  background: #fff;
+}
+.containerHome {
+  width: 1000px;
+  margin: 0 auto;
+}
+.wL {
+  width: 660px;
+}
+.wR {
+  width: 320px;
+}
+.ydMore {
+  display: none;
+  padding: 5px 0;
+  margin: 10px 15px 0;
+  font: 14px/20px '宋体', '宋体 Bold';
+  text-align: center;
+  color: #888;
+  background: #f2f2f2;
+  border: 1px solid #ccc;
+}
+.ydMore a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+@media screen and (max-width: 510px) {
+  .containerHome {
+    width: 100%;
+  }
+  .wL {
+    width: 100%;
+  }
+  .wR {
+    width: 100%;
+  }
+  .ydMore {
+    display: block;
+  }
+}
+.lmDh {
+  height: 40px;
+  margin-bottom: 30px;
+  background: #e60013;
+}
+.lmDh .lmDhUl li {
+  float: left;
+  _display: inline;
+  font: bold 16px/40px "Microsoft YaHei", "微软雅黑", Arial;
+  color: #fff;
+}
+.lmDh .lmDhUl li a {
+  display: block;
+  padding: 0 24px;
+}
+.lmDh .lmDhUl li a:hover {
+  text-decoration: none;
+  background: #a1000d;
+}
+.lmDh .lmDhUl li.dq {
+  background: #a1000d;
+}
+@media screen and (max-width: 510px) {
+  .lmDh {
+    height: 30px;
+    margin-bottom: 10px;
+    background: #f5f5f5;
+  }
+  .lmDh .lmDhUl {
+    width: auto;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  .lmDh .lmDhUl li {
+    float: none;
+    display: inline-block;
+    font: bold 14px/30px "Microsoft YaHei", "微软雅黑", Arial;
+    white-space: nowrap;
+    color: #333;
+  }
+  .lmDh .lmDhUl li a {
+    display: inline;
+    padding: 0 24px;
+    white-space: nowrap;
+  }
+  .lmDh .lmDhUl li a:hover {
+    text-decoration: none;
+    background: inherit;
+  }
+  .lmDh .lmDhUl li.dq {
+    color: #fff;
+    background: #a1000d;
+  }
+}
+.DliBg li {
+  padding-left: 1em;
+  background: url("../images/libg.jpg") no-repeat 0.2em 0.8em;
+}
+.xTs {
+  height: 32px;
+  text-align: center;
+}
+.xTs strong {
+  min-width: 160px;
+  padding: 0 20px;
+  display: inline-block;
+  font: 23px/32px "Microsoft YaHei", "微软雅黑", Arial;
+  color: #fff;
+  background: #ff4046;
+  border-radius: 16px;
+}
+.xTs01 {
+  background: url("../images/archives/xTs01.png") no-repeat center;
+}
+.xTs02 {
+  background: url("../images/archives/xTs02.png") no-repeat center;
+}
+.xTs03 {
+  background: url("../images/archives/xTs03.png") no-repeat center;
+}
+/* 大背景 */
+.fcdaDbg {
+  background: url("../images/archives/fcdaDbg.jpg") repeat-x top center;
+}
+/* 头部banner */
+.tBan {
+  position: relative;
+  height: 260px;
+}
+.tBan .tB01 {
+  position: absolute;
+  width: 1000px;
+  height: 304px;
+  margin: -130px 0 0 -500px;
+  left: 50%;
+  top: 50%;
+  background: url("../images/archives/tB01.png") no-repeat;
+}
+@media screen and (max-width: 510px) {
+  .tBan {
+    background: url("../images/archives/tB01.png") no-repeat;
+  }
+  .tBan .tB01 {
+    display: none;
+  }
+}
+/* 发展历程 */
+.fzlc {
+  height: 600px;
+  background: url("../images/archives/fzlcBg.jpg") no-repeat bottom center;
+}
+.fzlc .sqQ {
+  position: relative;
+  float: left;
+  _display: inline;
+  width: 175px;
+  height: 490px;
+  margin-left: 30px;
+  margin-top: 15px;
+  border-left: 3px solid #2394ba;
+}
+.fzlc .sqQ .jt0 {
+  position: absolute;
+  width: 70px;
+  height: 41px;
+  left: 0;
+  cursor: pointer;
+}
+.fzlc .sqQ .jts {
+  top: 20px;
+  background: url("../images/archives/jts.png") no-repeat;
+}
+.fzlc .sqQ .jtx {
+  bottom: 20px;
+  background: url("../images/archives/jtx.png") no-repeat;
+}
+.fzlc .sqQ .sxW {
+  position: absolute;
+  overflow: hidden;
+  width: 190px;
+  height: 300px;
+  left: 0;
+  top: 90px;
+}
+.fzlc .sqQ li {
+  position: relative;
+  height: 30px;
+  font: 15px/30px "Microsoft YaHei", "微软雅黑", Arial;
+  color: #2394ba;
+  cursor: pointer;
+}
+.fzlc .sqQ li span {
+  overflow: hidden;
+  float: left;
+  _display: inline;
+  width: 18px;
+  height: 2px;
+  margin-top: 14px;
+  margin-right: 3px;
+  background: #2394ba;
+}
+.fzlc .sqQ li.dq {
+  font-size: 20px;
+}
+.fzlc .sqQ li.dq span {
+  width: 40px;
+}
+.fzlc .sqQ li.dq em {
+  position: absolute;
+  overflow: hidden;
+  width: 99px;
+  height: 8px;
+  top: 11px;
+  left: 90px;
+  background: url("../images/archives/sqQliDq.png") no-repeat right center;
+}
+.fzlc .sqN {
+  float: right;
+  _display: inline;
+  position: relative;
+  margin-top: 35px;
+  width: 790px;
+  height: 446px;
+  background: url("../images/archives/sqNbg.png") repeat-y 6px center;
+}
+.fzlc .sqN .ydT,
+.fzlc .sqN .ydB {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 0;
+  background: url("../images/archives/sqNbgTb.png");
+}
+.fzlc .sqN .ydT {
+  top: 0;
+}
+.fzlc .sqN .ydB {
+  bottom: 0;
+}
+.fzlc .sqN .lcqk {
+  min-height: 38px;
+  padding-left: 33px;
+  padding-top: 5px;
+  margin-bottom: 26px;
+  font: 15px/30px "Microsoft YaHei", "微软雅黑", Arial;
+  color: #666;
+  background: url("../images/archives/lcqk.png") no-repeat 4px top;
+}
+.fzlc .sqN .lcqk h5 {
+  float: left;
+  _display: inline;
+  width: 95px;
+  font: 15px/30px "Microsoft YaHei", "微软雅黑", Arial;
+  color: #fff;
+}
+.fzlc .sqN .lcqk h5 strong {
+  float: left;
+  _display: inline;
+  width: 90px;
+  margin-left: -13px;
+  margin-top: -5px;
+  text-align: center;
+}
+.fzlc .sqN .sqNr {
+  display: none;
+  padding-top: 29px;
+}
+.fzlc .sqN .dq {
+  display: block;
+}
+/* 彩票知识 */
+.cpzs {
+  height: 450px;
+  margin-top: -16px;
+}
+.cpzs h2 {
+  margin-bottom: 45px;
+}
+.cpzs .cpzsUl {
+  float: left;
+  _display: inline;
+  margin-left: 55px;
+  font: 15px/30px "Microsoft YaHei", "微软雅黑", Arial;
+  color: #666;
+}
+.cpzs .cpzsR {
+  float: right;
+  _display: inline;
+  margin-top: 20px;
+}
+.cpzs .cpzsR .yjj,
+.cpzs .cpzsR .yjq {
+  margin-bottom: 10px;
+}
+.cpzs .moreG {
+  width: 200px;
+  height: 40px;
+  margin: 0 auto;
+  text-align: center;
+  font: 15px/40px "Microsoft YaHei", "微软雅黑", Arial;
+  color: #fff;
+  background: #ccc;
+}
+.cpzs .moreG a {
+  display: block;
+}
+.cpzs .moreG a:hover {
+  text-decoration: none;
+}
+@media screen and (max-width: 510px) {
+  .cpzs {
+    height: auto;
+    margin-top: 0;
+  }
+  .cpzs h2 {
+    margin-bottom: 10px;
+  }
+  .cpzs .cpzsUl {
+    float: none;
+    margin-left: 15px;
+    font: 15px/20px "Microsoft YaHei", "微软雅黑", Arial;
+  }
+  .cpzs .cpzsR {
+    display: none;
+  }
+  .cpzs .moreG {
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    font: 15px/40px "Microsoft YaHei", "微软雅黑", Arial;
+    color: #fff;
+    background: #ccc;
+  }
+  .cpzs .moreG a {
+    display: block;
+  }
+  .cpzs .moreG a:hover {
+    text-decoration: none;
+  }
+}
+/* 票样展 */
+.pyzs {
+  margin-bottom: 75px;
+}
+.pyzs,
+.pyzs .containerHome {
+  height: 556px;
+  background: url("../images/archives/pyzsBg.jpg") no-repeat bottom center;
+}
+.pyzs .pyHd {
+  position: relative;
+}
+.pyzs .hdzt .pyHdNr {
+  position: absolute;
+  background: #fff;
+}
+.pyzs .hdzt img {
+  width: 100%;
+}
+.pyzs .hdzt h5 {
+  text-align: center;
+  font: 20px/40px "Microsoft YaHei", "微软雅黑", Arial;
+  color: #333;
+}
+.pyzs .jtl,
+.pyzs .jtr {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 200px;
+  z-index: 15;
+  cursor: pointer;
+}
+.pyzs .jtl img,
+.pyzs .jtr img {
+  width: 100%;
+  height: 100%;
+}
+.pyzs .jtl {
+  left: 20px;
+}
+.pyzs .jtr {
+  right: 20px;
+}
+.pyzs .moreG {
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  left: 50%;
+  top: 465px;
+  margin-left: -100px;
+  text-align: center;
+  font: 15px/40px "Microsoft YaHei", "微软雅黑", Arial;
+  color: #fff;
+  background: #ccc;
+}
+.pyzs .moreG a {
+  display: block;
+}
+.pyzs .moreG a:hover {
+  text-decoration: none;
+}
+/* 刮刮乐手工艺品大赛获奖作品 */
+.huanDeng {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.huanDeng .hnBg {
+  width: 100%;
+}
+.huanDeng .hdwk {
+  overflow: hidden;
+  position: absolute;
+  width: 1000000%;
+  top: 0;
+  left: 0;
+}
+.huanDeng .hdwk .hdnk {
+  float: left;
+  _display: inline;
+  position: relative;
+}
+.huanDeng .hdwk .hdnk img {
+  /* width: 1000px; height: 360px;*/
+}
+.huanDeng .kzjt .jt0 {
+  position: absolute;
+  width: 50px;
+  height: 20%;
+  top: 40%;
+  cursor: pointer;
+  background-size: auto 100%;
+}
+.huanDeng .kzjt .jtL {
+  left: 0;
+  background: url("../images/zfc_lbt.png") no-repeat 0px 0px;
+}
+.huanDeng .kzjt .jtL:hover {
+  background: url("../images/zfc_lbt.png") no-repeat 0px -110px;
+}
+.huanDeng .kzjt .jtR {
+  right: 0;
+  background: url("../images/zfc_lbt.png") no-repeat -50px -110px;
+}
+.huanDeng .kzjt .jtR:hover {
+  background: url("../images/zfc_lbt.png") no-repeat -50px 0px;
+}
+@media screen and (max-width: 510px) {
+  .huanDeng .kzjt {
+    display: none;
+  }
+  .huanDeng .hdwk .hdnk img {
+    width: 100%;
+    height: auto;
+  }
+  .huanDeng .hdwk .hdnk h6 {
+    height: 30px;
+    font: 12px/30px "Microsoft YaHei", "微软雅黑", Arial;
+  }
+  .huanDeng .hdwk .hdnk h6 span {
+    padding-left: 10px;
+  }
+}
+.sgyds {
+  height: 570px;
+}
+.sgyds h2 {
+  margin-bottom: 50px;
+}
+.sgyds .sqQ {
+  height: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+.sgyds .sqQ li {
+  width: 140px;
+  height: 35px;
+  margin: 0 6px;
+  display: inline-block;
+  background: url("../images/archives/sqQliBg.jpg") no-repeat center bottom;
+}
+.sgyds .sqQ li.dq {
+  background: url("../images/archives/sqQliBgDq.jpg") no-repeat center bottom;
+}
+.sgyds .zpmd {
+  float: left;
+  _display: inline;
+  width: 380px;
+}
+.sgyds .zpmd table {
+  border-collapse: collapse;
+}
+.sgyds .zpmd td {
+  padding: 11px 12px 11px;
+  font: 12px/20px "Microsoft YaHei", "微软雅黑", Arial;
+  color: #333;
+  border: 1px solid #fff;
+  background: #f5f5f5;
+}
+.sgyds .zpmd thead td {
+  text-align: center;
+  background: #ddd;
+}
+.sgyds .sq01 .sqN .sqNr {
+  display: none;
+}
+.sgyds .sq01 .sqN .dq {
+  display: block;
+}
+.sgyds .hd02 {
+  float: right;
+  _display: inline;
+  width: 600px;
+  height: 350px;
+}
+.sgyds .hd02 .hdnk {
+  float: left;
+  _display: inline;
+  position: relative;
+}
+.sgyds .hd02 .hdnk img {
+  width: 600px;
+  height: 300px;
+}
+.sgyds .hd02 .hdnk h6 {
+  overflow: hidden;
+  width: 100%;
+  height: 50px;
+  font: 21px/40px "Microsoft YaHei", "微软雅黑", Arial;
+  color: #515151;
+}
+.sgyds .hd02 .hdnk h6 strong {
+  float: left;
+  _display: inline;
+  margin: 15px 0 0 15px;
+  font: 30px/32px "Microsoft YaHei", "微软雅黑", Arial;
+}
+.sgyds .hd02 .hdnk h6 em {
+  float: left;
+  _display: inline;
+  height: 30px;
+  padding: 0 35px;
+  margin: 17px 0 0 15px;
+  font: 20px/30px "Microsoft YaHei", "微软雅黑", Arial;
+  color: #fff;
+  background: #ccc;
+  border-radius: 15px;
+}
+/* 中国福利彩票史上的十五个第一 */
+.ld501 h2 {
+  margin-bottom: 30px;
+}
+.ld501 .d1N {
+  position: relative;
+  padding-bottom: 55px;
+  padding-top: 17px;
+  background: url("../images/archives/ld501D.jpg") repeat-y center top;
+}
+.ld501 .d1N .d1NqT,
+.ld501 .d1N .d1NqB {
+  position: absolute;
+  left: 50%;
+  margin-left: -13px;
+  width: 26px;
+  height: 26px;
+  background: url("../images/archives/ld501Q.jpg") no-repeat;
+}
+.ld501 .d1N .d1NqT {
+  top: 3px;
+}
+.ld501 .d1N .d1NqB {
+  bottom: 0px;
+}
+.ld501 .d1Zy {
+  position: relative;
+  width: 430px;
+  padding: 10px 0;
+}
+.ld501 .d1Zy h5 {
+  height: 30px;
+  font: 20px/30px "Microsoft YaHei", "微软雅黑", Arial;
+  color: #fff;
+}
+.ld501 .d1Zy h5 strong {
+  padding: 0 20px;
+  display: inline-block;
+  background: #ccc;
+  border-radius: 15px;
+}
+.ld501 .d1Zy .nfen {
+  display: inline-block;
+  font: 30px/46px fantasy;
+  color: #666;
+}
+.ld501 .d1Zy .zyNr {
+  clear: both;
+  text-align: justify;
+  font: 15px/20px "Microsoft YaHei", "微软雅黑", Arial;
+  color: #666;
+}
+.ld501 .d1ZyL {
+  float: left;
+  _display: inline;
+  left: 9px;
+  padding-right: 65px;
+  margin-bottom: 30px;
+  background: url("../images/archives/ld501L.png") no-repeat right center;
+}
+.ld501 .d1ZyL h5 {
+  text-align: right;
+}
+.ld501 .d1ZyL .nfen {
+  float: right;
+  _display: inline;
+  padding-right: 10px;
+  text-align: right;
+}
+.ld501 .d1ZyL .zyNr {
+  padding-left: 15px;
+}
+.ld501 .d1ZyR {
+  float: right;
+  _display: inline;
+  right: 9px;
+  padding-left: 65px;
+  margin-top: 50px;
+  background: url("../images/archives/ld501R.png") no-repeat left center;
+}
+.ld501 .d1ZyR h5 {
+  text-align: left;
+}
+.ld501 .d1ZyR .nfen {
+  float: left;
+  _display: inline;
+  padding-left: 10px;
+  text-align: left;
+}
+.ld501 .d1ZyR .zyNr {
+  padding-right: 15px;
+}
+/* 右侧导航 */
+.dhR {
+  position: fixed;
+  width: 118px;
+  height: 365px;
+  left: 50%;
+  top: 30%;
+  margin-left: 545px;
+  background: url("../images/archives/fcdaRdh.png") no-repeat;
+}
+.dhR ul {
+  padding-top: 118px;
+  font: 16px/44px "Microsoft YaHei", "微软雅黑", Arial;
+  text-align: center;
+  color: #2394ba;
+}
+@media screen and (max-width: 510px) {
+  .dhR {
+    display: none;
+  }
+}
+/*新增start*/
+.d1ZyL .nfen span {
+  background: url("../images/archives/nfJ.png") no-repeat center left;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin: 8px 15px 0 0;
+  cursor: pointer;
+}
+.d1ZyR .nfen span {
+  background: url("../images/archives/nfJ.png") no-repeat center left;
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin: 8px 0 0 15px;
+  cursor: pointer;
+}
+.tc_box {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+}
+.tc_bg {
+  background: #f5f5f5;
+  width: 800px;
+  margin: 0 auto;
+  padding: 50px 50px;
+  position: relative;
+  min-height: 300px;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.img_box {
+  width: 300px;
+  overflow: hidden;
+  float: left;
+  text-align: center;
+}
+.wz_dy {
+  float: right;
+  width: 455px;
+}
+.wz_dy .dy_01 {
+  text-align: right;
+  font: 20px/20px "Microsoft YaHei", "微软雅黑", Arial;
+  margin: 20px 0  15px 0;
+  color: #333333;
+}
+.wz_dy .dy_02 {
+  text-align: right;
+  font: 30px/30px "Microsoft YaHei", "微软雅黑", Arial;
+  color: #333333;
+}
+.wz_dy .dy_03 {
+  text-align: left;
+  font: 15px/25px "Microsoft YaHei", "微软雅黑", Arial;
+  color: #666666;
+  margin-top: 30px;
+}
+.gb {
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+.bk {
+  border: 5px dotted #666666;
+  margin: 0 auto;
+  width: 900px;
+  position: relative;
+  top: 150px;
+  padding: 8px;
+}
+/*新增end*/
